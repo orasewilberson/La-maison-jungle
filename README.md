@@ -1,70 +1,138 @@
-# Getting Started with Create React App
+— La Maison Jungle
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Application e-commerce de plantes en React
 
-## Available Scripts
+🏡 La Maison Jungle
 
-In the project directory, you can run:
+La Maison Jungle est une petite application e-commerce développée avec React, dans laquelle l’utilisateur peut :
 
-### `npm start`
+Parcourir une liste de plantes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ajouter des plantes à son panier
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Voir le total du panier
 
-### `npm test`
+Filtrer les plantes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Voir les catégories
 
-### `npm run build`
+Gérer les quantités
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+C’est un projet moderne visant à démontrer la maîtrise de React, des composants fonctionnels, de l’état local, et de la gestion d’un mini-panier e-commerce.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🚀 Fonctionnalités
+🌱 Gestion des plantes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Affichage d’une liste dynamique de plantes
 
-### `npm run eject`
+Chaque plante affiche son :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+nom
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+prix
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+catégorie
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+niveau de lumière
 
-## Learn More
+niveau d’arrosage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+image
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🛒 Panier dynamique
 
-### Code Splitting
+Ajouter des plantes au panier
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Quantité automatique si le même article est ajouté
 
-### Analyzing the Bundle Size
+Suppression du panier
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Affichage du total du panier
 
-### Making a Progressive Web App
+Stockage du panier dans le localStorage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+🔎 Filtrage / catégories
 
-### Advanced Configuration
+Filtrer les plantes par catégorie
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Affichage automatique en fonction du filtre choisi
 
-### Deployment
+⚛️ Fonctionnalités React utilisées
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+useState
 
-### `npm run build` fails to minify
+useEffect
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Props
+
+Lifting state up
+
+LocalStorage
+
+Composants réutilisables
+
+Mapping + listes
+
+CSS modularisé
+
+🛠️ Technologies utilisées
+
+React 18+
+
+JavaScript (ES6+)
+
+CSS3
+
+Node.js + npm
+
+LocalStorage API
+
+📦 Installation & Lancement
+1️⃣ Cloner le projet
+git clone https://github.com/orasewilberson/La-maison-jungle1.0.git
+
+2️⃣ Installer les dépendances
+npm install
+
+3️⃣ Lancer le projet
+npm start
+
+
+L’application sera disponible sur :
+
+➡️ http://localhost:3000
+
+📁 Structure du projet
+la-maison-jungle/
+│
+├── src/
+│   ├── components/
+│   │   ├── Cart.js
+│   │   ├── PlantItem.js
+│   │   ├── ShoppingList.js
+│   │   ├── Categories.js
+│   │   └── Banner.js
+│   │
+│   ├── data/
+│   │   └── plantList.js
+│   │
+│   ├── styles/
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+│
+└── public/
+
+📸 Aperçu (optionnel)
+
+Si tu veux, je peux ajouter des captures d’écran.
+Envoie-les-moi et j’ajoute une section “Screenshots”.
+
+👨‍💻 Auteur
+
+Wilberson Orase (Ing Will)
+Développeur passionné par React, PHP, Laravel et les architectures web modernes.
+
+📧 Contact
+
+📩 orasewilberson@gmail.com
