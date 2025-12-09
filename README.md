@@ -1,106 +1,63 @@
-— La Maison Jungle
+# 🌿 La Maison Jungle  
+Application e-commerce de plantes développée en **React**.
 
-Application e-commerce de plantes en React
+## 🏡 Présentation
+**La Maison Jungle** est une application web permettant aux utilisateurs de parcourir un catalogue de plantes, de gérer un panier interactif et de filtrer les plantes par catégorie.  
+Ce projet met en avant la maîtrise de **React**, des composants fonctionnels, de la gestion d’état, des props, du localStorage et de la logique d’un mini-système e-commerce.
 
-🏡 La Maison Jungle
+---
 
-La Maison Jungle est une petite application e-commerce développée avec React, dans laquelle l’utilisateur peut :
+## 🚀 Fonctionnalités principales
 
-Parcourir une liste de plantes
+### 🌱 Gestion des plantes
+- Affichage d'une liste de plantes  
+- Informations visibles : nom, prix, catégorie, lumière, arrosage, image  
+- Ajout d’une plante au panier  
+- Incrémentation automatique si ajout multiple  
 
-Ajouter des plantes à son panier
+### 🛒 Panier dynamique
+- Ajout au panier  
+- Calcul automatique du total  
+- Suppression du panier  
+- Persistance du panier grâce à **localStorage**
 
-Voir le total du panier
+### 🔎 Filtrage / catégories
+- Filtrer les plantes selon leur catégorie  
+- Composant dédié pour la sélection des catégories  
 
-Filtrer les plantes
+### ⚛️ Fonctionnalités React utilisées
+- `useState`  
+- `useEffect`  
+- Gestion des props  
+- Lifting state up  
+- Manipulation du LocalStorage  
+- Composants réutilisables  
 
-Voir les catégories
+---
 
-Gérer les quantités
+## 🛠️ Technologies utilisées
+- **React 18+**
+- **JavaScript (ES6+)**
+- **CSS3**
+- **Node.js & npm**
+- **LocalStorage API**
 
-C’est un projet moderne visant à démontrer la maîtrise de React, des composants fonctionnels, de l’état local, et de la gestion d’un mini-panier e-commerce.
+---
 
-🚀 Fonctionnalités
-🌱 Gestion des plantes
+## 📦 Installation & Lancement
 
-Affichage d’une liste dynamique de plantes
+### 1️⃣ Cloner le projet
+```bash
+git clone https://github.com/orasewilberson/La-maison-jungle1.git
 
-Chaque plante affiche son :
-
-nom
-
-prix
-
-catégorie
-
-niveau de lumière
-
-niveau d’arrosage
-
-image
-
-🛒 Panier dynamique
-
-Ajouter des plantes au panier
-
-Quantité automatique si le même article est ajouté
-
-Suppression du panier
-
-Affichage du total du panier
-
-Stockage du panier dans le localStorage
-
-🔎 Filtrage / catégories
-
-Filtrer les plantes par catégorie
-
-Affichage automatique en fonction du filtre choisi
-
-⚛️ Fonctionnalités React utilisées
-
-useState
-
-useEffect
-
-Props
-
-Lifting state up
-
-LocalStorage
-
-Composants réutilisables
-
-Mapping + listes
-
-CSS modularisé
-
-🛠️ Technologies utilisées
-
-React 18+
-
-JavaScript (ES6+)
-
-CSS3
-
-Node.js + npm
-
-LocalStorage API
-
-📦 Installation & Lancement
-1️⃣ Cloner le projet
-git clone https://github.com/orasewilberson/La-maison-jungle1.0.git
-
-2️⃣ Installer les dépendances
+Installer les dépendances
 npm install
 
-3️⃣ Lancer le projet
+3️⃣ Lancer l’application
 npm start
 
 
-L’application sera disponible sur :
-
-➡️ http://localhost:3000
+➡️ Ensuite, ouvrez : http://localhost:3000
 
 📁 Structure du projet
 la-maison-jungle/
@@ -123,16 +80,9 @@ la-maison-jungle/
 │
 └── public/
 
-📸 Aperçu (optionnel)
-
-Si tu veux, je peux ajouter des captures d’écran.
-Envoie-les-moi et j’ajoute une section “Screenshots”.
-
 👨‍💻 Auteur
 
 Wilberson Orase (Ing Will)
-Développeur passionné par React, PHP, Laravel et les architectures web modernes.
+Passionné par le développement web moderne : React, Laravel, PHP, JavaScript, etc.
 
-📧 Contact
-
-📩 orasewilberson@gmail.com
+📧 Contact : orasewilberson@gmail.com
