@@ -79,8 +79,8 @@ la-maison-jungle/
 │   └── ...
 │
 └── public/
-
-👨‍💻 Auteur
+---
+### 👨‍💻 Auteur
 
 Wilberson Orase (Ing Will)
 Passionné par le développement web moderne : React, Laravel, PHP, JavaScript, etc.
