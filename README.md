@@ -49,7 +49,7 @@ Ce projet met en avant la maîtrise de **React**, des composants fonctionnels, d
 ### 1️⃣ Cloner le projet
 ```bash
 git clone https://github.com/orasewilberson/La-maison-jungle1.git
-```
+
 Installer les dépendances
 npm install
 
@@ -79,10 +79,11 @@ la-maison-jungle/
 │   └── ...
 │
 └── public/
----
-### 👨‍💻 Auteur
+```
+
+## 👨‍💻 Auteur
 
 Wilberson Orase (Ing Will)
-Passionné par le développement web moderne : React, Laravel, PHP, JavaScript, etc.
+Passionné par le développement web et application moderne : React, Laravel, PHP, JavaScript, java, spring boot, python etc.
 
 📧 Contact : orasewilberson@gmail.com
