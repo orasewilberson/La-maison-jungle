@@ -49,7 +49,7 @@ Ce projet met en avant la maîtrise de **React**, des composants fonctionnels, d
 ### 1️⃣ Cloner le projet
 ```bash
 git clone https://github.com/orasewilberson/La-maison-jungle1.git
-
+```
 Installer les dépendances
 npm install
 
